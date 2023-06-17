@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.Travels{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.travels-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.travels-overlay{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(3px); */
+}

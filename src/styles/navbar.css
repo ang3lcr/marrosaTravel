@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.navbar-elements {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-element {
+  margin-right: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: white;
+}

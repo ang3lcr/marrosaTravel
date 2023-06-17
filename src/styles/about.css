@@ -1,0 +1,96 @@
+/* Titles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+
+
+.resize-img{
+    width: 1920px;
+    height: 1080px;
+}
+
+
+.About{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.about-text{
+    width: 40%;
+   
+}
+.about-paragraph{
+    font-size: 22px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.h1-about{
+    margin-top: 2%;
+    padding-left: 1%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about-paragraph{
+    padding-top: 1%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-justify: newspaper;
+}
+
+.about-overlay{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-color: rgba(0, 0, 0, 0.322);
+    backdrop-filter: blur(3px);
+}
+
+.about-logo{
+    width: 500px;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: .3s;
+}
+
+
+@media (max-width: 390px) {
+  .About{
+    overflow: visible;
+  }
+  .about-text{
+    width: 100%;
+    padding: 1%;
+   }
+   .about-logo{
+    width: 300px;
+    position: static;
+}
+}
