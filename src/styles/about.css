@@ -81,7 +81,7 @@
 }
 
 
-@media (max-width: 390px) {
+@media (max-width: 964px) {
   .About{
     overflow: visible;
   }
@@ -93,4 +93,7 @@
     width: 300px;
     position: static;
 }
+    .about-container{
+        gap: 0%;
+    }
 }
